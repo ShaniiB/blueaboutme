@@ -56,7 +56,7 @@ body {
     height: 500px;
     background-image: url("https://i.imgur.com/c26Smkq.jpg");
     background-size: 1000px 580px;
-    background-position: bottom 50px right 400px;
+    background-position: bottom 50px right 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     transform: rotate(90deg);
