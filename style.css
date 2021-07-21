@@ -1,16 +1,17 @@
 ::-webkit-scrollbar {
     width: 20px;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     background: rgb(212, 241, 232);
-  }
-  ::-webkit-scrollbar-thumb {
+ }
+::-webkit-scrollbar-thumb {
     background: rgb(166, 216, 199);
-  }
+ }
+
   
-  h1 {
+h1 {
     z-index: 2;
-    width: 220px;
+    width: 245px;
     height: 10px;
     margin-top: -15px;
     padding-left: 10px;
@@ -20,8 +21,19 @@
     border-bottom: #16251E 20px solid;
   }
   
-  p {
-    width: 210px;
+  h2 {
+    z-index: 2;
+    height: 10px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #16251E;
+    text-align: right;
+  }
+
+p {
+    width: 235px;
     height: 160px;
     padding: 10px;
     font-size: 13px;
@@ -30,17 +42,27 @@
   }
 
   
-  body {
+body {
     background-color: rgb(107, 174, 190);
     width: 99.9%;
     height: 100%;
     overflow-x: hidden;
   }
+
+catcher {
+   position: fixed;
+   z-index: 0px;
+   background-image: url('https://i.imgur.com/c26Smkq.jpg');
+   background-position: bottom 50px right 100px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    -webkit-transform: rotate(60deg);
+}  
   
-  #vertcona {
+#vertcona {
     position: absolute;
     z-index: 0;
-    width: 20%;
+    width: 255px;
     height: 120%;
     overflow-y: hidden;
     margin-top: -10px;
@@ -51,16 +73,17 @@
     
   }
   
-  .content {
+#content {
     position: absolute;
     z-index: 0;
+    width: 255px;
     height: 120%;
     overflow-x: hidden;
     margin-top: -10px;
     margin-left: 0px; 
   }
   
-  #horicona {
+#horicona {
     position: fixed;
     z-index: -1;
     background: rgb(176, 231, 214);
@@ -71,3 +94,17 @@
   
   }
   
+#horiboxes {
+    position: absolute;
+    z-index: 0;
+    height: 120%;
+    overflow-x: hidden;
+    margin-top: -10px;
+    margin-left: 0px; 
+  }
+
+.boxes {
+  padding: 10px;
+  width: 40px;
+  height: 20px;
+}
