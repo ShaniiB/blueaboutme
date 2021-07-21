@@ -20,9 +20,17 @@
     border-bottom: #16251E 20px solid;
   }
   
+  p {
+    width: 210px;
+    height: 160px;
+    padding: 10px;
+    font-size: 13px;
+    color: #000000;
+    text-align: justify;
+  }
+
   
-  
-  body{
+  body {
     background-color: rgb(107, 174, 190);
     width: 99.9%;
     height: 100%;
@@ -40,6 +48,7 @@
     background: rgb(176, 231, 214);
     border-left: rgb(212, 241, 232) 30px solid;
     border-right: rgb(212, 241, 232) 30px solid;
+    
   }
   
   .content {
