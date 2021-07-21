@@ -50,13 +50,12 @@ body {
 }
 
 #catcher {
-    position: fixed;
     z-index: 0;
     width: 400px;
     height: 500px;
-    background-image: url("https://i.imgur.com/c26Smkq.jpg");
+    background-image: url("");
     background-size: 1000px 580px;
-    background-position: bottom 50px right 0px;
+    background-position: bottom 0px right 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     transform: rotate(90deg);
@@ -107,9 +106,11 @@ body {
   }
 
 .box {
+    position: relative;
+    top: 10px;
     background-color: #ffffff;
-    margin: 5px;
+    margin: 6px 8px 8px 6px;
     padding: 10px;
-    width: 40px;
-    height: 20px;
+    width: 70px;
+    height: 20px;    
 }
