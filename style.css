@@ -51,14 +51,14 @@ body {
 
 #catcher {
     position: fixed;
-    z-index: 0px;
+    z-index: -2px;
     width: 400px;
-    height: 200px;
+    height: 500px;
     background-image: url("https://i.imgur.com/c26Smkq.jpg");
-    background-position: bottom 50px right 100px;
+    background-position: bottom 50px right 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transform: rotate(90deg);
+    transform: rotate(30deg);
 }  
   
 #vertcona {
