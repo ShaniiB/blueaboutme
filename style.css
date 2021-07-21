@@ -52,13 +52,13 @@ body {
 #catcher {
     position: fixed;
     z-index: 0px;
-    width: 400px ;
+    width: 400px;
     height: 200px;
-    background-image: url('https://i.imgur.com/c26Smkq.jpg');
+    background-image: url("https://i.imgur.com/c26Smkq.jpg");
     background-position: bottom 50px right 100px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transform: rotate(60deg);
+    transform: rotate(90deg);
 }  
   
 #vertcona {
