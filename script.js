@@ -1,5 +1,5 @@
 "use strict"
-
+/*
 let askName = prompt("Hey there!\nWhat's your name?");
     console.log("Their name is " + askName + "");
 
@@ -30,3 +30,4 @@ let myBirthMonth = prompt("Was I born in the Fall?");
   alert("Oh wow! you do pay attention!");
     console.log("" + getMoniker + "knows what of the season I was born!");
 } 
+*/
