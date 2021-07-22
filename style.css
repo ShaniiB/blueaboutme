@@ -47,7 +47,7 @@ p {
     width: 265px;
     height: 160px;
     padding: 10px;
-    font-family: Cav;
+    font-family: "Cav";
     font-size: 13px;
     color: #000000;
     text-align: justify;
@@ -114,7 +114,7 @@ body {
     width: 95px;
     height: 20px;
     font-size: 17px;
-    font-family: Or;
+    font-family: "Or";
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
