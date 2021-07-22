@@ -8,13 +8,23 @@
     background: rgb(166, 216, 199);
  }
 
-  
+ @font-face {
+  font-family: "Or";
+  src: url(http://static.tumblr.com/czno3wd/gEWn6fk7t/orgasmo.otf);
+}
+
+ @font-face {
+  font-family: "Cav";
+  src: url(http://static.tumblr.com/czno3wd/Yk5n6fkk5/caviardreams.ttf);
+} 
+
 h1 {
     z-index: 2;
     width: 275px;
     height: 10px;
     margin-top: -15px;
     padding-left: 15px;
+    font-family: Cav;
     font-size: 40px;
     color: #cef5ff;
     text-shadow: #16251E 5px 1px 1px;
@@ -27,6 +37,7 @@ h1 {
     margin-top: -17px;
     margin-bottom: -20px;
     padding: 10px;
+    font-family: Cav;
     font-size: 15px;
     color: #16251E;
     text-align: right;
@@ -36,6 +47,7 @@ p {
     width: 265px;
     height: 160px;
     padding: 10px;
+    font-family: Cav;
     font-size: 13px;
     color: #000000;
     text-align: justify;
@@ -108,9 +120,14 @@ body {
 .box {
     position: relative;
     top: 10px;
-    background-color: #ffffff;
+    background-color: rgb(212, 241, 232);
     margin: 6px 8px 8px 6px;
     padding: 10px;
-    width: 70px;
-    height: 20px;    
+    width: 95px;
+    height: 20px;
+    font-size: 17px;
+    font-family: Or; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
 }
