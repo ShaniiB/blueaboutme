@@ -1,5 +1,5 @@
 "use strict"
-
+/*
 let askName = prompt("Hey there!\nWhat's your name?");
     console.log("Their name is " + askName + "");
 

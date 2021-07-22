@@ -16,7 +16,7 @@
  @font-face {
   font-family: "Cav";
   src: url(http://static.tumblr.com/czno3wd/Yk5n6fkk5/caviardreams.ttf);
-} 
+}
 
 h1 {
     z-index: 2;
@@ -30,7 +30,7 @@ h1 {
     text-shadow: #16251E 5px 1px 1px;
     border-bottom: #16251E 20px solid;
   }
-  
+
   h2 {
     z-index: 2;
     height: 10px;
@@ -53,7 +53,7 @@ p {
     text-align: justify;
   }
 
-  
+
 body {
     width: 99.9%;
     height: 100%;
@@ -61,18 +61,6 @@ body {
     background-color: rgb(107, 174, 190);
 }
 
-#catcher {
-    z-index: 0;
-    width: 400px;
-    height: 500px;
-    background-image: url("");
-    background-size: 1000px 580px;
-    background-position: bottom 0px right 0px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    transform: rotate(90deg);
-}  
-  
 #vertcona {
     position: absolute;
     z-index: 0;
@@ -80,13 +68,13 @@ body {
     height: 120%;
     overflow-y: hidden;
     margin-top: -10px;
-    margin-left: 120px; 
+    margin-left: 120px;
     background: rgb(176, 231, 214);
     border-left: rgb(212, 241, 232) 30px solid;
     border-right: rgb(212, 241, 232) 30px solid;
-    
+
   }
-  
+
 #content {
     position: absolute;
     z-index: 0;
@@ -94,9 +82,9 @@ body {
     height: 120%;
     overflow-x: hidden;
     margin-top: -10px;
-    margin-left: 0px; 
+    margin-left: 0px;
   }
-  
+
 #horicona {
     position: fixed;
     z-index: -1;
@@ -105,16 +93,16 @@ body {
     height: 25%;
     margin-left: -7px;
     margin-top: 300px;
-  
+
   }
-  
+
 #horiboxes {
     position: absolute;
     z-index: 0;
     height: 120%;
     overflow-x: hidden;
     margin-top: -10px;
-    margin-left: 0px; 
+    margin-left: 0px;
   }
 
 .box {
@@ -126,12 +114,14 @@ body {
     width: 95px;
     height: 20px;
     font-size: 17px;
-    font-family: Or; 
+    font-family: Or;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;   
+    letter-spacing: 2px;
+
 }
-hover.box {
+.box:hover {
+  left: 500px;
   background-color: rgb(212, 241, 232);
   margin: 6px 8px 8px 6px;
   padding: 10px;
