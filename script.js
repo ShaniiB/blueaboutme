@@ -43,7 +43,7 @@ while (challengeUser) {
 }
 let askGamer = prompt("Do you like videogames?");
 if (askGamer === "Yes")
-  alert("Cool!\nI do too!"); {
+  alert("Cool!\nI do too!"); 
   if (askGamer === "Yes") {
     askGamer = prompt("Do you play on Xbox?");
     alert("Yesss! Shoot me your gamertag sometime!")
@@ -52,11 +52,11 @@ if (askGamer === "Yes")
       alert("Eh, to each their own.")
     }
   }
-}
+
 let askAnime = prompt("Do you like anime?");
-if (askAnime.toLowerCase === "yes")
-  alert("Saaame, I'm currently really into MHA\n(My Hero Academia)"); {
-  if (askAnime.toLowerCase === "yes") {
+if (askAnime === "yes"){
+  alert("Saaame, I'm currently really into MHA\n(My Hero Academia)");
+  if (askAnime === "yes") {
     askAnime = prompt("Are you?");
     alert("Bet! You're hella cool!")
 
@@ -68,8 +68,8 @@ if (askAnime.toLowerCase === "yes")
 // ask the user's age
 let askAge = prompt("Are you over the age of 18?");
 if (askAge === "yes")
-  alert("nice!"); {
-  alert("wait");
+  alert("nice!") 
+  alert("wait") 
   if (askAge === "yes") {
     askAge = prompt("Are you over the age of 21?");
     alert("Oh cool!")
@@ -79,7 +79,7 @@ if (askAge === "yes")
       alert("You gotta be 18 to be in this program!");
     }
   }
-}
+
 // the user must guess your age
 let myAge = 26;
 
@@ -97,10 +97,10 @@ for (let i = 18; i < 30; i++) {
   }
 }
 // user must guess my favorite animal
-let answers = ["Bears"];
+let animal = ["Bears"];
 for (let i = -3; i < 3; i++) {
-  let questionInput = prompt("Between these animals can you guess my favorite?\nHyenas, Lions, Bears, Wolves, Goats, Skinks, and Ducks");
-  if (answers.indexOf(questionInput) == -3) {
+  let favoriteAnimal = prompt("Between these animals can you guess my favorite?\nHyenas, Lions, Bears, Wolves, Goats, Skinks, and Ducks");
+  if (animals.indexOf(favoriteAnimal) == -3) {
     alert("Nope.~");
     alert("Guess again!")
   }
