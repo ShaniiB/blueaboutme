@@ -1,5 +1,4 @@
-"use strict"
-
+"Use Stict";
 //  asking the user for their name
 let askName = prompt("Whoa there, stranger danger!\nWhat's your name?");
 while (askName === "" || askName === null) { // user must enter ask the prommpt to move on
@@ -19,7 +18,7 @@ while (getMoniker === "" || getMoniker === null) {
   getMoniker = prompt("Enter nickname?");
   alert("Stubborn aren't ya?");
   alert("Ok..\nLets try this again..");
-  getMonkier = prompt("" + askName + ",\nWhat is your nickname?");
+  getMoniker = prompt("" + askName + ",\nWhat is your nickname?");
   alert("OK! Whatever..\njust call me Shanii."); // user never learns your nickname as punishment
   console.log(" " + askName + " is stubborn ");
   break;
@@ -38,7 +37,7 @@ while (challengeUser) {
   let acceptChallenge = prompt("Do you accept my challenge?");
   if (acceptChallenge.toUpperCase() === 'OK' || acceptChallenge.toUpperCase() === "YES" || acceptChallenge.toUpperCase() === "Y") {
     challengeUser = false;
-    console.log("Challenge has been accepted.")
+    console.log("Challenge has been accepted.");
   }
 }
 let askGamer = prompt("Do you like videogames?");
@@ -46,39 +45,40 @@ if (askGamer === "Yes")
   alert("Cool!\nI do too!"); 
   if (askGamer === "Yes") {
     askGamer = prompt("Do you play on Xbox?");
-    alert("Yesss! Shoot me your gamertag sometime!")
+    alert("Yesss! Shoot me your gamertag sometime!");
 
     while (askGamer === "No") {
-      alert("Eh, to each their own.")
+      alert("Eh, to each their own.");
     }
   }
-
-let askAnime = prompt("Do you like anime?");
-if (askAnime === "yes"){
-  alert("Saaame, I'm currently really into MHA\n(My Hero Academia)");
-  if (askAnime === "yes") {
-    askAnime = prompt("Are you?");
-    alert("Bet! You're hella cool!")
-
-    while (askAnime === "no") {
-      alert("<_<..oh ok..")
+// ask user if they like anime
+  let askAnime = prompt("Do you like anime?");
+  if (askAnime === "Yes") {
+    alert("Cool, I'm currently watching MHA! My Here Academia\nI'm also keeping up by reading the Manga"); }
+    if (askAnime === "Yes") {
+      askAnime = prompt("Have you watched it?");
+      alert("Lets talk about it sometime!");
+  
+      while (askGamer === "No") {
+        alert("Eh, to each their own.");
+      }
     }
-  }
-}
+  
 // ask the user's age
 let askAge = prompt("Are you over the age of 18?");
-if (askAge === "yes")
-  alert("nice!") 
-  alert("wait") 
+if (askAge === "yes") {
+  alert("nice!") ;
+  alert("wait") ;
+}
+  askAge = prompt("Are you over the age of 21?");
   if (askAge === "yes") {
-    askAge = prompt("Are you over the age of 21?");
-    alert("Oh cool!")
-
-    while (askAge === "no") {
-      alert("Wait a minute..")
+  alert("Oh cool!");
+}
+    while (askAge === null) {
+      alert("Wait a minute..");
       alert("You gotta be 18 to be in this program!");
-    }
   }
+  
 
 // the user must guess your age
 let myAge = 26;
@@ -90,7 +90,7 @@ for (let i = 18; i < 30; i++) {
     break;
   }
   else if (guessAge > myAge) {
-    alert("Nope!!")
+    alert("Nope!!");
   }
   else if (guessAge < myAge) {
     alert("Flattering!~ But nope");
@@ -100,12 +100,14 @@ for (let i = 18; i < 30; i++) {
 let animal = ["Bears"];
 for (let i = -3; i < 3; i++) {
   let favoriteAnimal = prompt("Between these animals can you guess my favorite?\nHyenas, Lions, Bears, Wolves, Goats, Skinks, and Ducks");
-  if (animals.indexOf(favoriteAnimal) == -3) {
+  if (animal.indexOf(favoriteAnimal) == -3) 
+  while (favoriteAnimal === "" || favoriteAnimal=== null) {
     alert("Nope.~");
-    alert("Guess again!")
+    alert("Guess again!");
   }
   else {
     alert("You know me so well.~");
+    alert("Good job!");
     break;
   }
 }
