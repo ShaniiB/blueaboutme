@@ -40,6 +40,7 @@ h1 {
     font-size: 15px;
     color: #16251E;
     text-align: right;
+  
   }
 
   h3 {
@@ -52,10 +53,19 @@ h1 {
     color: #16251E;
     text-align: center;
   }
+  
+  h4 {
+  
+    font-family: Cav;
+    font-size: 15px;
+    color: #16251E;
+    text-align: left;
+  }
+
 
 p {
-    width: 360px;
-    height: 160px;
+    width: auto;
+    height: auto;
     padding: 10px;
     font-family: "Cav";
     font-size: 13px;
@@ -63,9 +73,15 @@ p {
     text-align: justify;
   }
 
+ul {
+     width: 100px;
+     display: inline-block;
+
+}
+
 body {
     width: 99.9%;
-    height: 100%;
+    height: 170%;
     overflow-x: hidden;
     background-color: rgb(107, 174, 190);
 }
@@ -74,7 +90,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 375px;
-    height: 125%;
+    height: 160%;
     overflow-y: hidden;
     margin-top: -10px;
     margin-left: 120px;
@@ -88,7 +104,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 375px;
-    height: 125%;
+    height: 160%;
     overflow-x: hidden;
     margin-top: -10px;
     margin-left: 0px;
@@ -112,6 +128,36 @@ body {
     overflow-x: hidden;
     margin-top: -10px;
     margin-left: 0px;
+  }
+
+  #topfandom {
+    position: fixed;
+    top:250px;
+    left:800px;
+    z-index: 10;
+    width: 400px;
+    height: 180px;
+    overflow-x:visible;
+  }
+
+  #topmusic {
+    position: fixed;
+    top:250px;
+    left:950px;
+    z-index: 10;
+    width: 400px;
+    height: 180px;
+    overflow-x:visible;
+  }
+
+  #topgame {
+    position: fixed;
+    top:250px;
+    left:1100px;
+    z-index: 10;
+    width: 400px;
+    height: 180px;
+    overflow-x:visible;
   }
 
 .box {

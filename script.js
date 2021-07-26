@@ -1,4 +1,5 @@
-"Use Stict";
+"use stict";
+
 //  asking the user for their name
 let askName = prompt("Whoa there, stranger danger!\nWhat's your name?");
 while (askName === "" || askName === null) { // user must enter ask the prommpt to move on
