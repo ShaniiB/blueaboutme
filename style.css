@@ -55,9 +55,9 @@ h1 {
   }
   
   h4 {
-  
+    margin-bottom:-20px;
     font-family: Cav;
-    font-size: 15px;
+    font-size: 25px;
     color: #16251E;
     text-align: left;
   }
@@ -74,7 +74,7 @@ p {
   }
 
 ul {
-     width: 100px;
+     width: 180px;
      display: inline-block;
 
 }
@@ -135,7 +135,17 @@ body {
     top:250px;
     left:800px;
     z-index: 10;
-    width: 400px;
+    width: 490px;
+    height: 180px;
+    overflow-x:visible;
+  }
+
+  #topgames {
+    position: fixed;
+    top:250px;
+    left:990px;
+    z-index: 10;
+    width: 490px;
     height: 180px;
     overflow-x:visible;
   }
@@ -143,19 +153,9 @@ body {
   #topmusic {
     position: fixed;
     top:250px;
-    left:950px;
+    left:1180px;
     z-index: 10;
-    width: 400px;
-    height: 180px;
-    overflow-x:visible;
-  }
-
-  #topgame {
-    position: fixed;
-    top:250px;
-    left:1100px;
-    z-index: 10;
-    width: 400px;
+    width: 479px;
     height: 180px;
     overflow-x:visible;
   }

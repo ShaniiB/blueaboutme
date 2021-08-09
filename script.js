@@ -70,9 +70,10 @@ let askAge = prompt("Are you over the age of 18?");
 if (askAge === "yes") {
   alert("nice!") ;
   alert("wait") ;
+  while (askAge.toUpperCase() === "NO");
 }
   askAge = prompt("Are you over the age of 21?");
-  if (askAge === "yes") {
+  if (askAge.toUpperCase() === "yes") {
   alert("Oh cool!");
 }
     while (askAge === null) {
@@ -85,24 +86,24 @@ if (askAge === "yes") {
 let myAge = 26;
 
 for (let i = 18; i < 30; i++) {
-  let guessAge = prompt("How old do you think I am?");
+  let guessAge = prompt("How old do you think I am?\n18-30");
   if (guessAge == myAge) {
     alert("Das riiight! ~ '94!");
     break;
   }
   else if (guessAge > myAge) {
-    alert("Nope!!");
+    alert("Nope!!~");
   }
-  else if (guessAge < myAge) {
+  else {
     alert("Flattering!~ But nope");
   }
 }
 // user must guess my favorite animal
 let animal = ["Bears"];
-for (let i = -3; i < 3; i++) {
+for (let i = -3; i < 3; i) {
   let favoriteAnimal = prompt("Between these animals can you guess my favorite?\nHyenas, Lions, Bears, Wolves, Goats, Skinks, and Ducks");
   if (animal.indexOf(favoriteAnimal) == -3) 
-  while (favoriteAnimal === "" || favoriteAnimal=== null) {
+  while (favoriteAnimal.toLowerCase() === "No" || favoriteAnimal=== null) {
     alert("Nope.~");
     alert("Guess again!");
   }
